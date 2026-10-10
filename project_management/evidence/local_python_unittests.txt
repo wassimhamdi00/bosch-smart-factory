@@ -1,0 +1,16 @@
+Local Python unit tests — verified 2026-10-11.
+Scope: offline monitoring prototype only; no industrial deployment or performance validation.
+
+Test command: python -m unittest discover -s tests -v
+
+Test results:
+  test_db_and_csv ................... ok
+  test_invalid_machine ............. ok
+  test_reproducibility ............. ok
+  test_temperature_boundary ....... ok
+  test_vibration_boundary ......... ok
+
+Ran 5 tests — all passed
+OK
+
+The separate simulated_runs.csv is a project-management scenario, not test execution evidence.

@@ -1,0 +1,11 @@
+﻿AP,Ergebnis,Rolle,Aufwand h,Vorgaenger,Start W,Ende W,PL h,IoT h,SW h,UI h,QA h,Personalkosten EUR
+AP-01,Projektauftrag und Stakeholder,PL,24,,1,2,24,0,0,0,0,2040
+AP-02,"Requirements, Architektur und Datenvertrag",PL / SW,48,AP-01,3,4,16,0,32,0,0,3920
+AP-03,Simulator und synthetische Messdaten,IoT,64,AP-02,5,7,0,64,0,0,0,4800
+AP-04,MQTT-Ingestion und Validierung,IoT / SW,56,AP-02,5,7,0,40,16,0,0,4280
+AP-05,Datenbank und Ereignisarchiv,SW,48,AP-04,8,9,0,0,48,0,0,3840
+AP-06,Grenzwert- und Alarmverarbeitung,SW,56,AP-04,8,9,0,0,56,0,0,4480
+AP-07,Dashboard und Bedienoberflaeche,UI / IoT,72,AP-02,7,10,0,8,0,64,0,5080
+AP-08,Integration der Komponenten,IoT / SW / UI,48,AP-03; AP-05; AP-06; AP-07,10,11,0,24,0,24,0,3480
+AP-09,Testplanung und technische Verifikation,QA / PL,56,AP-02,9,11,16,0,0,0,40,4160
+AP-10,Abnahme und Abschluss,QA / UI,24,AP-08; AP-09,12,12,0,0,0,0,24,1680

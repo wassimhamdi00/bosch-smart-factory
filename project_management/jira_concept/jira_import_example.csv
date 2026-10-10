@@ -1,0 +1,11 @@
+﻿Summary,Issue Type,Description,Labels
+AP-01 | Projektauftrag und Stakeholder,Task,Fiktives Arbeitspaket; Rolle: PL; Aufwand 24 h; Vorg.: -,"bosch-showcase,ap-01"
+"AP-02 | Requirements, Architektur und Datenvertrag",Task,Fiktives Arbeitspaket; Rolle: PL / SW; Aufwand 48 h; Vorg.: AP-01,"bosch-showcase,ap-02"
+AP-03 | Simulator und synthetische Messdaten,Task,Fiktives Arbeitspaket; Rolle: IoT; Aufwand 64 h; Vorg.: AP-02,"bosch-showcase,ap-03"
+AP-04 | MQTT-Ingestion und Validierung,Task,Fiktives Arbeitspaket; Rolle: IoT / SW; Aufwand 56 h; Vorg.: AP-02,"bosch-showcase,ap-04"
+AP-05 | Datenbank und Ereignisarchiv,Task,Fiktives Arbeitspaket; Rolle: SW; Aufwand 48 h; Vorg.: AP-04,"bosch-showcase,ap-05"
+AP-06 | Grenzwert- und Alarmverarbeitung,Task,Fiktives Arbeitspaket; Rolle: SW; Aufwand 56 h; Vorg.: AP-04,"bosch-showcase,ap-06"
+AP-07 | Dashboard und Bedienoberflaeche,Task,Fiktives Arbeitspaket; Rolle: UI / IoT; Aufwand 72 h; Vorg.: AP-02,"bosch-showcase,ap-07"
+AP-08 | Integration der Komponenten,Task,"Fiktives Arbeitspaket; Rolle: IoT / SW / UI; Aufwand 48 h; Vorg.: AP-03, AP-05, AP-06, AP-07","bosch-showcase,ap-08"
+AP-09 | Testplanung und technische Verifikation,Task,Fiktives Arbeitspaket; Rolle: QA / PL; Aufwand 56 h; Vorg.: AP-02,"bosch-showcase,ap-09"
+AP-10 | Abnahme und Abschluss,Task,"Fiktives Arbeitspaket; Rolle: QA / UI; Aufwand 24 h; Vorg.: AP-08, AP-09","bosch-showcase,ap-10"

@@ -1,0 +1,6 @@
+Datum,ID,Frage,Entscheidung,Begruendung
+2026-10-09,DEC-001,Firma,Bosch als fiktiver Showcase,Industrie-4.0-Kontext
+2026-10-09,DEC-002,Alarmart,Nur Warnungen,Sicherheitskritische Steuerung ausgeschlossen
+2026-10-09,DEC-003,Projektlaufzeit,12 Wochen,Planungsannahme
+2026-10-09,DEC-004,Arbeitspakete,Teilparallel,Schnittstellenvertrag ermoeglicht parallele Arbeit
+2026-10-09,DEC-005,CR-001,Im Planspiel annehmen,Nachvollziehbare Auswirkungsanalyse

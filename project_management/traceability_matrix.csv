@@ -1,0 +1,16 @@
+﻿REQ-ID,REQ-Version B2,AP-ID,TEST-ID,Letzter Ausfuehrungsstatus,Beleg,CR-ID
+REQ-001,1.0,AP-04,TEST-001,Nicht ausgefuehrt (ausser separate simulierte Laeufe),nicht vorhanden,
+REQ-002,1.0,AP-04,TEST-002,Nicht ausgefuehrt (ausser separate simulierte Laeufe),nicht vorhanden,
+REQ-003,1.0,AP-04,TEST-002,Nicht ausgefuehrt (ausser separate simulierte Laeufe),nicht vorhanden,
+REQ-004,1.0,AP-05,TEST-003,Nicht ausgefuehrt (ausser separate simulierte Laeufe),nicht vorhanden,
+REQ-005,1.0,AP-06,TEST-004,Nicht ausgefuehrt (ausser separate simulierte Laeufe),project_management/evidence/simulated_runs.csv,
+REQ-006,1.0,AP-06,TEST-005,Nicht ausgefuehrt (ausser separate simulierte Laeufe),project_management/evidence/simulated_runs.csv,
+REQ-007,1.0,AP-05,TEST-006,Nicht ausgefuehrt (ausser separate simulierte Laeufe),nicht vorhanden,
+REQ-008,1.0,AP-07,TEST-007,Nicht ausgefuehrt (ausser separate simulierte Laeufe),nicht vorhanden,
+REQ-009,1.0,AP-07,TEST-007,Nicht ausgefuehrt (ausser separate simulierte Laeufe),nicht vorhanden,
+REQ-010,1.0,AP-04,TEST-008,Nicht ausgefuehrt (ausser separate simulierte Laeufe),project_management/evidence/simulated_runs.csv,
+REQ-011,1.0,AP-07,TEST-009,Nicht ausgefuehrt (ausser separate simulierte Laeufe),nicht vorhanden,
+REQ-012,2.0,AP-08,TEST-010,Nicht ausgefuehrt (ausser separate simulierte Laeufe),project_management/evidence/simulated_runs.csv,CR-001
+REQ-013,1.0,AP-05,TEST-011,Nicht ausgefuehrt (ausser separate simulierte Laeufe),nicht vorhanden,
+REQ-014,1.0,AP-03,TEST-012,Nicht ausgefuehrt (ausser separate simulierte Laeufe),project_management/evidence/simulated_runs.csv,
+REQ-015,1.0,AP-07,TEST-013,Nicht ausgefuehrt (ausser separate simulierte Laeufe),nicht vorhanden,

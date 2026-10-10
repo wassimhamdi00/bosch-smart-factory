@@ -1,0 +1,7 @@
+﻿Risk-ID,Ursache/Ereignis,Auswirkung,W,A,Prioritaet,Massnahme,Owner,Trigger,Restrisiko W,Restrisiko A
+RISK-001,Schema zwischen Simulator und MQTT passt nicht,Integration blockiert; AP-04/AP-08 verzoegert,2,3,6,"AP-02 Schema-Vertrag, Mock-Nachrichten und Contract-Tests",IoT,Fehlerrate >1% bei Schema-Checks,1,2
+RISK-002,MQTT-Broker nicht erreichbar,Sensordaten treffen nicht ein,2,3,6,"Healthcheck, lokaler Testbroker, Wiederverbindungslogik",IoT,Verbindung >60 s unterbrochen,1,2
+RISK-003,Alarmgrenzwerte missverstanden,Falsche Alarme oder verpasste Anomalien,2,3,6,Boundary-Tests 80.0/80.1 und 7.0/7.1,QA,Abweichung in TEST-004/005,1,2
+RISK-004,IoT-Rolle ausgelastet,Simulator/MQTT Verzug auf kritischem Pfad,3,2,6,Zeitpuffer und Priorisierung nach Schnittstelle,PL,>8h Planabweichung in Woche 6,2,2
+RISK-005,Hohe Datenlast / Speicherung unvollstaendig,99%-Ziel verfehlt,2,3,6,"Messraten limitieren, Eingangszaehler und DB-Logging",SW,Speicherquote <99%,1,2
+RISK-006,Kein Zugriff auf eine konfigurierte Polarion-Testinstanz,ALM-Workflow kann nicht in der Zielsoftware validiert werden,2,2,4,Toolunabhaengige ALM-Konzeptansichten dokumentieren,PL,Bis zur Konzeptpruefung keine Testinstanz verfuegbar,1,1

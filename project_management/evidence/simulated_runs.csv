@@ -1,0 +1,6 @@
+﻿Run-ID,Test,Timestamp UTC,Version,Input,Expected,Assumed actual,Result,Evidence type
+RUN-001,TEST-004,2026-10-09T14:00:00Z,B1,80.0 / 80.1 C,Alarm only at 80.1,Alarm only at 80.1,Bestanden,SIMULIERTER TESTLAUF - kein realer Nachweis
+RUN-002,TEST-005,2026-10-09T15:00:00Z,B1,7.0 / 7.1 mm/s,Alarm only at 7.1,Alarm only at 7.1,Bestanden,SIMULIERTER TESTLAUF - kein realer Nachweis
+RUN-003,TEST-008,2026-10-09T16:00:00Z,B1,M-99,Rejected,Rejected,Bestanden,SIMULIERTER TESTLAUF - kein realer Nachweis
+RUN-004,TEST-010,2026-10-09T17:00:00Z,B2,10 Maschinen; Alarm,<=1.0s,1.4s,Fehlgeschlagen,SIMULIERTER TESTLAUF - kein realer Nachweis
+RUN-005,TEST-012,2026-10-09T18:00:00Z,B2,"Seed 42, 100 Messungen",Identische Folge,Identische Folge,Bestanden,SIMULIERTER TESTLAUF - kein realer Nachweis
